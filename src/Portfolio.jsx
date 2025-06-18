@@ -192,10 +192,10 @@ export default function Portfolio() {
           </Link>
         </div>
         <div className="flex gap-4 items-center">
-          <a href="/Devi.pdf" download className="px-4 py-2 text-sm bg-blue-600 hover:bg-blue-700 text-white rounded-full flex items-center gap-2 transition">
+          <a href="/DeviK.pdf" download className="px-4 py-2 text-sm bg-blue-600 hover:bg-blue-700 text-white rounded-full flex items-center gap-2 transition">
             <FileText size={16} /> Download Resume
           </a>
-          <a href="/Devi.pdf" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-sm border border-blue-600 text-blue-600 hover:bg-blue-100 dark:hover:bg-gray-700 rounded-full flex items-center gap-2 transition">
+          <a href="/DeviK.pdf" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-sm border border-blue-600 text-blue-600 hover:bg-blue-100 dark:hover:bg-gray-700 rounded-full flex items-center gap-2 transition">
             <FileText size={16} /> View Resume
           </a>
           <button onClick={() => setDarkMode(!darkMode)} className="p-2 border rounded-full hover:bg-gray-200 dark:hover:bg-gray-700">
