@@ -103,8 +103,8 @@ export default function Portfolio() {
 
   const experiences = [
     {
-      role: "Data Engineer",
-      company: "Cinergy Technology Inc.",
+      role: "Data Analytics Engineer",
+      company: "Cinergy Technology",
       period: "Sep 2024 - Present",
       description: "Designing and implementing scalable data pipelines, optimizing ETL processes, and developing real-time analytics solutions.",
       skills: ["Azure", "Salesforce", "Databricks", "PySpark", "Data Modeling", "Data Visualization", "Git"],
@@ -112,7 +112,7 @@ export default function Portfolio() {
     },
     {
       role: "Data Engineer Intern",
-      company: "Cinergy Technology Inc.",
+      company: "Cinergy Technology",
       period: "Jan 2024 - Sep 2024",
       description: "Building and enhancing scalable data pipelines, streamlining ETL workflows, and contributing to real-time data analytics solutions for better decision-making.",
       skills: ["Python", "Azure", "AWS", "SSIS", "Tableau"],
@@ -127,7 +127,7 @@ export default function Portfolio() {
       icon: <Briefcase className="text-blue-600 dark:text-blue-300" />
     },
     {
-      role: "Data Engineer",
+      role: "Data Analytics Engineer",
       company: "Berymo",
       period: "May 2019 - Jul 2022",
       description: "Built data infrastructure and dashboards for business intelligence, reducing reporting time by 40%.",
@@ -192,7 +192,7 @@ export default function Portfolio() {
           </Link>
         </div>
         <div className="flex gap-4 items-center">
-          <a href="/DeviKondeti_Resume.pdf" download className="px-4 py-2 text-sm bg-blue-600 hover:bg-blue-700 text-white rounded-full flex items-center gap-2 transition">
+          <a href="/Devi.pdf" download className="px-4 py-2 text-sm bg-blue-600 hover:bg-blue-700 text-white rounded-full flex items-center gap-2 transition">
             <FileText size={16} /> Download Resume
           </a>
           <a href="/DeviKondeti_Resume.pdf" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-sm border border-blue-600 text-blue-600 hover:bg-blue-100 dark:hover:bg-gray-700 rounded-full flex items-center gap-2 transition">
@@ -220,7 +220,7 @@ export default function Portfolio() {
           transition={{ duration: 1, delay: 0.3 }}
           className="text-2xl font-semibold text-blue-600 dark:text-blue-300"
         >
-          Data Engineer
+          Data Analytics Engineer
         </motion.p>
         <motion.p
           initial={{ opacity: 0 }}
@@ -228,7 +228,7 @@ export default function Portfolio() {
           transition={{ duration: 1, delay: 0.6 }}
           className="text-xl text-gray-700 dark:text-gray-300"
         >
-          Turning Raw Data into Actionable Insights
+          From ingestion to insight: powering data-driven outcomes
         </motion.p>
         <motion.p
           initial={{ opacity: 0 }}
