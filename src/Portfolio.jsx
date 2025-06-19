@@ -61,25 +61,19 @@ export default function Portfolio() {
       title: "Credit Card Fraud Detection",
       description: "Machine Learning model to detect fraudulent transactions with 99% accuracy using Random Forest and XGBoost algorithms.",
       skills: ["Python", "Scikit-learn", "Pandas", "Imbalanced Learning"],
-      link: "#"
-    },
-    {
-      title: "Customer Sentiment Analysis",
-      description: "NLP pipeline to analyze customer reviews using BERT and TextBlob, achieving 92% sentiment classification accuracy.",
-      skills: ["Python", "NLTK", "Transformers", "BERT"],
-      link: "#"
+      link: "https://github.com/DeviNKondeti/CreditCardFraudAnalysis"
     },
     {
       title: "COVID-19 Cases Prediction",
       description: "Time Series Forecasting using ARIMA and Prophet to predict COVID-19 cases with 95% confidence intervals.",
       skills: ["Python", "Statsmodels", "FB Prophet", "Matplotlib"],
-      link: "#"
+      link: "https://github.com/DeviNKondeti/Covid-19_DataAnalysis-Viz"
     },
     {
       title: "Human Activity Recognition",
       description: "Classification model to recognize human activities from sensor data using CNN and LSTM networks.",
       skills: ["TensorFlow", "Keras", "Signal Processing"],
-      link: "#"
+      link: "https://github.com/DeviNKondeti/HumanActivity-RecogUsingML"
     },
     {
       title: "System Monitoring Solution",
